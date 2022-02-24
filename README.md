@@ -30,8 +30,9 @@ all information from the database is output, it was not possible to limit the in
 
 2.Tic tac toe game
 the computer plays with itself for two players. At the end of the game, the history of the moves of both "players" and the result are displayed
-("Draw", "first player wins", "Second player wins")
+("Draw", "first player wins", "Second player wins"). each player's move is displayed in the console as an interactive field. to optimize the operation of the program, each randomly generated position is checked in the cache for uniqueness.
 
 the details
+to simplify the implementation, the cross and zero were replaced with -1 and 1.
 the user can set the size of the square playing field. During the implementation process,
 I could not add the ability to set the number of consecutive crosses or zeros (diagonals).
